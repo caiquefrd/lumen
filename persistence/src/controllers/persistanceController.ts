@@ -11,7 +11,7 @@ class MeteoController {
     }
     public async list(_: Request, res: Response): Promise<any> {
         const r: any = await query(
-            "SELECT status, timestamp FROM led_tracker ORDER BY timestamp"
+            "SELECT status,   to_char( timestamp AT TIME ZONE 'UTC+3' AT TIME ZONE 'America/Sao_Paulo', 'DD/MM/YYYY HH24:MI:SS') AS timestamp FROM led_tracker ORDER BY timestamp DESC"
         );
         return res.json(r);
     }

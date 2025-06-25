@@ -36,7 +36,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://192.168.73.68:3000/persistance');
+        const response = await fetch('http://localhost:3000/persistance');
         const data = await response.json();
         if (data) {
           setStatus(data);

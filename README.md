@@ -27,10 +27,11 @@ A versão 2 do Lumen trouxe as seguintes melhorias:
 
 ## 3. Desenho da arquitetura utilizada na solução
 
-O sistema utiliza uma arquitetura distribuída, onde dispositivos ESP32 (clients) se comunicam com o backend via protocolo MQTT. O backend armazena os dados em um banco PostgreSQL e os disponibiliza por uma API para o frontend.
+O sistema utiliza uma arquitetura distribuída, onde dispositivos ESP8266 se comunicam com o backend via protocolo MQTT. O backend armazena os dados em um banco PostgreSQL e os disponibiliza por uma API para o frontend.
 
 *Figura: Diagrama de arquitetura do sistema*  
-![image](https://github.com/user-attachments/assets/e48a9f9c-bec5-46b0-8536-6a2ce0ced3c9)
+![image](https://github.com/user-attachments/assets/7c951a1d-adda-4c6d-83c1-da098df025a8)
+
 
 ---
 

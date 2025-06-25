@@ -41,7 +41,7 @@ O sistema utiliza uma arquitetura distribuída, onde dispositivos ESP8266 se com
 
 | Componente             | Quantidade | Descrição                      |
 |------------------------|------------|--------------------------------|
-| Placa ESP32            | 1          | Com módulo Wi-Fi integrado     |
+| Placa ESP8266            | 1          | Com módulo Wi-Fi integrado     |
 | Cabo jumper            | 6          | Para conexões em protoboard    |
 | Protoboard             | 1          | Base de montagem               |
 | LED de diodo           | 1          | Representa a lâmpada           |
@@ -64,7 +64,7 @@ O sistema utiliza uma arquitetura distribuída, onde dispositivos ESP8266 se com
 
 ## 5. Desenho de conexão do circuito de hardware
 
-A imagem abaixo representa como o LED é conectado ao ESP32 por meio do protoboard e resistor.
+A imagem abaixo representa como o LED é conectado ao ESP8266 por meio do protoboard e resistor.
 
 *Figura: Conexões do circuito de hardware*  
 ![image](https://github.com/user-attachments/assets/295ccd0b-4bb5-4d84-9b2a-e91933506186)
@@ -75,7 +75,7 @@ A imagem abaixo representa como o LED é conectado ao ESP32 por meio do protoboa
 
 ### 6.1 Pré-requisitos
 
-- ESP32 com suporte Wi-Fi;
+- ESP8266 com suporte Wi-Fi;
 - Ambiente Node.js instalado;
 - Broker MQTT em execução (ex: Mosquitto);
 - Banco de dados PostgreSQL acessível;

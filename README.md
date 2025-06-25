@@ -56,6 +56,8 @@ O sistema utiliza uma arquitetura distribuída, onde dispositivos ESP32 (clients
 - **Express** – Framework para APIs no backend;
 - **CORS** – Middleware para controle de acesso HTTP;
 - **pg** – Cliente PostgreSQL para Node.js.
+- **Pub/Sub Client** – Biblioteca para o envio de dados MQTT.
+- **WIFI.H** - Fazer requisições HTTP pela placa.
 
 ---
 

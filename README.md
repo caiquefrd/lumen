@@ -113,5 +113,5 @@ A imagem abaixo representa como o LED é conectado ao ESP32 por meio do protoboa
    ```
 
 ## 7. Imagens
-  ![image](https://github.com/user-attachments/assets/1d845acf-06f1-4b4d-b5e7-8535bc38ec05)
-
+  
+![image](https://github.com/user-attachments/assets/11db046b-1dcb-46cc-9fb5-972379b103b5)
